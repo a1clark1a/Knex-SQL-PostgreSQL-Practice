@@ -11,7 +11,7 @@ ArticlesService.getAllArticles(knexInstance)
   .then(articles => console.log(articles))
   .then(() => {
     return ArticlesService.insertArticle(knexInstance, {
-      title: "New title",
+      title: "New title 1",
       content: "New Content",
       date_published: new Date()
     });
